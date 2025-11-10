@@ -1,0 +1,19 @@
+.submit-input-container {
+    margin-top: 10px;
+}
+
+.submit-input {
+    width: 140px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: var(--cor1);
+    color: white;
+    font-weight: 700;
+}
+
+.submit-input:hover {
+    background-color: var(--cor3);
+    color: black;
+    transition: 1s;
+}

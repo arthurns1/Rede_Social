@@ -1,0 +1,39 @@
+:root {
+    --cor1: #0378a6;
+    --cor2: #049dbf;
+    --cor3: #8fd9c4;
+    --cor4: #465902;
+    --cor5: #f2e0c9;
+}
+
+.registro {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor5);
+    height: 78.2vh;
+}
+
+.registro form {
+    padding: 30px;
+    height: max-content;
+    border: 1px solid rgb(241, 241, 241);
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.193);
+    background-color: white;
+}
+
+.upper-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.815);
+}
+
+.registro h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
